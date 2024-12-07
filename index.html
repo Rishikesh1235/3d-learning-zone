@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Learning Zone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first page.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="welcome">
+            <h1>Welcome to 3D Learning Zone</h1>
+            <p>Explore interactive 3D models and enhance your learning experience.</p>
+            <button onclick="window.location.href='#models'">Get Started</button>
+        </section>
+        
+        <section id="models">
+            <h2>Our 3D Models</h2>
+            <p>Interactive models for immersive learning.</p>
+            <div class="model-container">
+                <iframe width="640" height="480" src="https://sketchfab.com/models/your-model-id/embed" allow="autoplay; fullscreen" frameborder="0"></iframe>
+                <!-- Repeat the iframe for additional models -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 3D Learning Zone. All rights reserved.</p>
+    </footer>
 </body>
 </html>
