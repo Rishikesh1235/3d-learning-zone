@@ -9,8 +9,9 @@ document.body.appendChild(renderer.domElement);
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
 const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-directionalLight.position.set(0, 1, 1).normalize(); // Adjusted light position
+directionalLight.position.set(0, 1, 1).normalize();
 scene.add(directionalLight);
+
 
 // Set up camera position
 camera.position.z = 5;
