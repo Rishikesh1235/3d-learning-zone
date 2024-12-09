@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #B1FC74;
-    color: white;
+    color: Green;
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: Green;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 .start-btn {
-    background-color: #ffffff;
+    background-color: #B1FC74;
     border: none;
     color: #00a2e3;
     padding: 15px 30px;
@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #00a2e3;
+    background-color: #B1FC74;
     color: white;
     text-align: center;
     padding: 10px;
